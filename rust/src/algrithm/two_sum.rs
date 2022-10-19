@@ -23,5 +23,6 @@ mod tests {
         assert_eq!(two_sum(vec![2, 7, 11, 15], 9), vec![0, 1]);
         assert_eq!(two_sum(vec![5, 9, 6, 1, 3, 2, 2], 4), vec![3, 4]);
         assert_eq!(two_sum(vec![3, 3], 5), vec![]);
+        assert_eq!(two_sum(vec![3], 5), vec![]);
     }
 }

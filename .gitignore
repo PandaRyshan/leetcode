@@ -1,8 +1,11 @@
 # Folders
 target/
+venv/
+__pycache__/
 
 
 # Files
+!.mvn/wrapper/maven-wrapper.jar
 
 # lockfile
 Cargo.lock

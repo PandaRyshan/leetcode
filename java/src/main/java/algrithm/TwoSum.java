@@ -1,8 +1,13 @@
+package algrithm;
+
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * url: https://leetcode.cn/problems/two-sum
  */
 
-class Solution {
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> hashtable = new HashMap<>();
         for (int i = 0; i < nums.length; i ++) {
