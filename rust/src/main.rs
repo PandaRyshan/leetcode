@@ -9,6 +9,11 @@ pub fn main() {
         None => {&1},
     });
     print_type(&hashtable.get(&1));
+
+    let l1 = vec![1, 2, 3];
+    let l2 = vec![1, 2, 3];
+    println!("{}", l1.eq(&l2));
+
 }
 
 fn print_type<T>(_: &T) {
