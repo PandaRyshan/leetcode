@@ -1,5 +1,6 @@
 mod two_sum;
 mod add_two_numbers;
+mod binary_search;
 
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
