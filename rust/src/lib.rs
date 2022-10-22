@@ -1,2 +1,2 @@
-pub mod algrithm;
-pub use algrithm::{ListNode, vec_to_listnode};
+pub mod algorithm;
+pub use algorithm::{ListNode, vec_to_listnode};

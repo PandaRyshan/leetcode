@@ -1,4 +1,4 @@
-package algrithm;
+package algorithm;
 
 import common.ListNode;
 
