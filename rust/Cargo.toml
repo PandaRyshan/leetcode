@@ -8,4 +8,4 @@ authors = ["xiaohong@duckduck.io"]
 description = "leetcode practices"
 
 [dependencies]
-
+test-case = "2.2.2"
