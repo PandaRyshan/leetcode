@@ -17,8 +17,11 @@ public class ListNode {
                 (l1 != null && l2 == null)) {
                     return false;
                 }
-            return l1.getVal() == l2.getVal();
+            if (l1.val != l2.val) {
+                return false;
+            }
+            return equals(l1.next, l2.next);
         }
-        return l1 == l2;
+        return false;
     }
 }

@@ -2,11 +2,15 @@
 target/
 venv/
 __pycache__/
+.vscode/
 
 
 # Files
 !.mvn/wrapper/maven-wrapper.jar
+.env
 
 # lockfile
 Cargo.lock
+
+*.cache
 
