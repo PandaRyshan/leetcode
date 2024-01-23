@@ -12,9 +12,14 @@ def array_to_listnode(arr: List) -> ListNode:
         curr = curr.next
     return listnode.next
 
+
 def listnode_to_array(l: ListNode) -> ArrayType:
     a = []
     while l:
         a.append(l.val)
         l = l.next
     return a
+
+
+def sort_nested_list(lst: List):
+    return sorted(sorted(sublist) for sublist in lst)

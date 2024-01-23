@@ -1,0 +1,6 @@
+[
+  "tests/test_add_two_nums.py::Test::test_add_two_nums",
+  "tests/test_group_anagrams.py::Test::test_group_anagrams",
+  "tests/test_length_of_longest_substring.py::Test::test_length_of_longest_substring",
+  "tests/test_two_sum.py::Test::test_two_sum"
+]
