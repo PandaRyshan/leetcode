@@ -1,6 +1,6 @@
 import unittest
 
-from src.two_sum import Solution
+from src.two_sum_1 import Solution
 
 
 class Test(unittest.TestCase):
