@@ -1,7 +1,6 @@
 from array import ArrayType
-import unittest
 
-from typing import List, Optional
+from typing import List
 from src.common.listnode import ListNode
 
 
@@ -12,9 +11,10 @@ def array_to_listnode(arr: List) -> ListNode:
         curr = curr.next
     return listnode.next
 
-def listnode_to_array(l: ListNode) -> ArrayType:
+
+def listnode_to_array(listnode: ListNode) -> ArrayType:
     a = []
-    while l:
-        a.append(l.val)
-        l = l.next
+    while listnode:
+        a.append(listnode.val)
+        listnode = listnode.next
     return a

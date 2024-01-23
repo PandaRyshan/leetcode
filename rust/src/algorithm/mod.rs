@@ -2,6 +2,7 @@ mod two_sum;
 mod add_two_numbers;
 mod binary_search;
 mod array_strings_are_equal;
+mod merge_in_between_linked_list;
 
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {

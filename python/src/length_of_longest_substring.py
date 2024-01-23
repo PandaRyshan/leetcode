@@ -1,6 +1,14 @@
 class Solution:
 
     def lengthOfLongestSubstring(self, s: str) -> int:
+        """Caculate the length of longest substring str
+
+        Args:
+            s (str): String, not None
+
+        Returns:
+            int: length
+        """
         substr = ""
         max_len = 0
 
