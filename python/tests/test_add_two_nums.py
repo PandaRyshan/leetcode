@@ -1,6 +1,6 @@
 import unittest
 
-from src.add_two_nums import Solution
+from src.add_two_nums_2 import Solution
 from tests.common import array_to_listnode, listnode_to_array
 
 
