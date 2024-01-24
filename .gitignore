@@ -6,6 +6,7 @@ __pycache__/
 
 # Files
 !.mvn/wrapper/maven-wrapper.jar
+.env
 
 # lockfile
 Cargo.lock

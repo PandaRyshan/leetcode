@@ -3,9 +3,11 @@ import aiohttp
 import json
 import time
 import requests
+import os
+import dotenv
 
 
-API_KEY = '2c7b6bcb41eb6ddca01ece8ace8bc0e3'
+API_KEY = os.environ.get('WEATHER_API_KEY')
 URLs = [
     'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={api_key}'
         .format(lat=39.56, lon=116.20, api_key=API_KEY),
@@ -45,5 +47,7 @@ async def test_async():
     print('time: ', endtime - starttime)
 
 
+dotenv.load_dotenv()
 asyncio.run(test_async())
 test_sync()
+
