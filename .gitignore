@@ -2,6 +2,7 @@
 target/
 venv/
 __pycache__/
+.vscode/
 
 
 # Files
@@ -11,4 +12,7 @@ __pycache__/
 Cargo.lock
 
 *.cache
+<<<<<<< HEAD
+=======
 
+>>>>>>> main
